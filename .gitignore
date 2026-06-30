@@ -1,0 +1,29 @@
+# Secrets — never commit these
+civicpulse-server/.env
+civicpulse-server/serviceAccountKey.json
+.env
+*.env.local
+
+# Dependencies
+node_modules/
+.npm/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Build & cache
+*.log
+.cache/
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
